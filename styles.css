@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header {
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 70%;
+    margin: auto;
+}
+
+
+.color__display {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    min-height: 30rem;
+}
+
+h2 {
+    background-color: #000;
+    color: #fff;
+    padding: .5rem;
+}
+
+button {
+    color: #000;
+    background-color: transparent;
+    cursor: pointer;
+    max-width: 10rem;
+    margin: auto;
+    padding: .50rem 1rem;
+}
+
+button:hover {
+    background-color: #000;
+    color: #fff;
+    border: 2px solid #fff;
+}
